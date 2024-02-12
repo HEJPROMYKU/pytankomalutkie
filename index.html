@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takie małe pytanko mam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div class="container"></div>
+    
+    <div id="wynik" class="pytanie ukryj">
+        <p class="przesunWdol"><p>Spotkajmy się 14.02 o godzinie: <span id="tekstOdpowiedzi"></span></p>
+        <p> (zrób screena i mi wyślij) </p>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3psdHV6MmhvbjYyYXh0ZHA0Zmx4bTQzajZza2o1YndxdDVrZDIyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chzz1FQgqhytWRWbp3/giphy.gif" alt="Tańczący kot">
+    </div>
+    
+     <div id="pytaniegodzina" class="pytanie ukryj">
+        <p>To o której godzince się widzimy?</p>
+        <input type="time" id="odpowiedzUzytkownika" required>
+        <button id="btnOdpowiedz">Odpowiedz</button>
+    </div>  
+
+    <div id="pytanienie" class="pytanie ukryj">
+        <p class="przesunWdol">Czemu nie?: <span id="miejsceOdpowiedzi"></span></p>
+        <p> (zrób screena i mi wyślij) </p>
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXRjMGhscG1neXZmbzNldTljaTR3cGhjdzJ5N28xcW5hMTd6cjZmYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OPU6wzx8JrHna/giphy.gif" alt="Tańczący kot">
+
+    </div>
+    
+    <div id="pytaniegodzinanie" class="pytanie ukryj">
+        <p>Czemu nie?</p>
+        <input type="text" id="odpowiedz" placeholder="Napisz czemu">
+        <button id="btnodpowiedznie">Odpowiedz</button>
+    </div>
+    
+
+    <div id="pytanieMeeting" class="pytanie ukryj">
+        <p>Meeting 14.02?</p>
+        <button id="meetingTak">Tak</button>
+        <button id="meetingNie">Nie</button>
+    </div>
+
+    <div id="pytanieWalentynka" class="pytanie aktywne">
+        <p>Czy zostaniesz moją Walentynką Wiktorio?</p>
+        <button id="btnTak">Tak</button>
+        <button id="btnNie">Nie</button>
+    </div>
+    
+   <script src="script.js"></script>
+
+</body>
+</html>
